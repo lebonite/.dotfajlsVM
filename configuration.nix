@@ -3,16 +3,11 @@
 {
   imports =
     [ 
-      ./unfreeList.nix
       ./hardware-configuration.nix
-      ./probook440g6GPU.nix
-      ./virtualisation.nix
-      ./fonts/.
-      ./steam/.
+  
     ];
 
-  # Efi bootloader mount pooint
-  boot.loader.efi.efiSysMountPoint = "/booty/"; 
+
  
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
