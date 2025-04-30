@@ -56,6 +56,7 @@
   
   users.users.Hedwig = {
     isNormalUser = true;
+    hashedPassword = "$y$j9T$YVAzycKk9KmycagooKGwQ.$fnneWUnGVbZEvbrBzJobmfK/t.fljjCnlqEfE7XP4v.";
     extraGroups = [ "wheel" "jackaudio" "docker" "wireshark" ]; 
     packages = with pkgs; [
       wine     
